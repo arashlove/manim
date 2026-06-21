@@ -1,0 +1,19 @@
+[project]
+name = "manim-animations"
+version = "0.1.0"
+description = "Single Manim GIF: vector as a point in space (Part 1)."
+authors = [
+    {name = "arash",email = "47685624+arashlove@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "manim>=0.19.2"
+]
+
+[project.scripts]
+manim-animate = "manim_animations.run:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
